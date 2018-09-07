@@ -1,6 +1,6 @@
 package user
 
-import "rest/demo07/model"
+import "go-api-server/demo07/model"
 
 type CreateRequest struct {
 	Username string `json:"username"`

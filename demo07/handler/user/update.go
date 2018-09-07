@@ -1,10 +1,10 @@
 package user
 
 import (
-	. "rest/demo07/handler"
-	"rest/demo07/model"
-	"rest/demo07/pkg/errno"
-	"rest/demo07/util"
+	. "go-api-server/demo07/handler"
+	"go-api-server/demo07/model"
+	"go-api-server/demo07/pkg/errno"
+	"go-api-server/demo07/util"
 	"strconv"
 
 	"github.com/gin-gonic/gin"

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"rest/demo01/router"
+	"go-api-server/demo01/router"
 
 	"github.com/gin-gonic/gin"
 )

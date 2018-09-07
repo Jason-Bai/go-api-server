@@ -3,8 +3,8 @@ package model
 import (
 	"fmt"
 
-	"rest/demo07/pkg/auth"
-	"rest/demo07/pkg/constvar"
+	"go-api-server/demo07/pkg/auth"
+	"go-api-server/demo07/pkg/constvar"
 
 	validator "gopkg.in/go-playground/validator.v9"
 )

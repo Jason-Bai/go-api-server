@@ -1,8 +1,8 @@
 package handler
 
 import (
+	"go-api-server/demo06/pkg/errno"
 	"net/http"
-	"rest/demo06/pkg/errno"
 
 	"github.com/gin-gonic/gin"
 )

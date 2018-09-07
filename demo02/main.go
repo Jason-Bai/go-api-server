@@ -2,13 +2,12 @@ package main
 
 import (
 	"errors"
-	"fmt"
 	"log"
 	"net/http"
 	"time"
 
-	"rest/demo02/config"
-	"rest/demo02/router"
+	"go-api-server/demo02/config"
+	"go-api-server/demo02/router"
 
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/pflag"
@@ -27,11 +26,12 @@ func main() {
 		panic(err)
 	}
 
-	// hot reload
+	/* hot reload
 	for {
 		fmt.Println(viper.GetString("runmode"))
 		time.Sleep(4 * time.Second)
 	}
+	*/
 
 	gin.SetMode(viper.GetString("runmode"))
 

@@ -2,8 +2,8 @@ package user
 
 import (
 	"fmt"
+	"go-api-server/demo05/pkg/errno"
 	"net/http"
-	"rest/demo05/pkg/errno"
 
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"

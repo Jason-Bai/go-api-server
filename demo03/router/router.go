@@ -3,8 +3,8 @@ package router
 import (
 	"net/http"
 
-	"rest/demo03/handler/sd"
-	"rest/demo03/router/middleware"
+	"go-api-server/demo03/handler/sd"
+	"go-api-server/demo03/router/middleware"
 
 	"github.com/gin-gonic/gin"
 )

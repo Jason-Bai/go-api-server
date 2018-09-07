@@ -2,8 +2,8 @@ package service
 
 import (
 	"fmt"
-	"rest/demo07/model"
-	"rest/demo07/util"
+	"go-api-server/demo07/model"
+	"go-api-server/demo07/util"
 	"sync"
 )
 

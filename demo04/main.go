@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"rest/demo04/config"
-	"rest/demo04/model"
-	"rest/demo04/router"
+	"go-api-server/demo04/config"
+	"go-api-server/demo04/model"
+	"go-api-server/demo04/router"
 
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"

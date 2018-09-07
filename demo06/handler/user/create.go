@@ -3,8 +3,8 @@ package user
 import (
 	"fmt"
 
-	. "rest/demo06/handler"
-	"rest/demo06/pkg/errno"
+	. "go-api-server/demo06/handler"
+	"go-api-server/demo06/pkg/errno"
 
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"
