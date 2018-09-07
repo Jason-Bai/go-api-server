@@ -5,6 +5,7 @@ import (
 	"runtime"
 )
 
+// Info contains versioning information.
 type Info struct {
 	GitTag       string `json:"gitTag"`
 	GitCommit    string `json:"gitCommit"`
@@ -15,6 +16,7 @@ type Info struct {
 	Platform     string `json:"platform"`
 }
 
+// String returns info as a human-friendly version string.
 func (info Info) String() string {
 	return info.GitTag
 }

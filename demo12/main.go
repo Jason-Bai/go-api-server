@@ -1,12 +1,16 @@
 package main
 
 import (
+	"encoding/json"
 	"errors"
+	"fmt"
 	"net/http"
+	"os"
 	"time"
 
 	"go-api-server/demo12/config"
 	"go-api-server/demo12/model"
+	v "go-api-server/demo12/pkg/version"
 	"go-api-server/demo12/router"
 	"go-api-server/demo12/router/middleware"
 
@@ -25,6 +29,15 @@ func main() {
 	pflag.Parse()
 
 	if *version {
+		v := v.Get()
+		marshalled, err := json.MarshalIndent(&v, "", "  ")
+		if err != nil {
+			fmt.Printf("%v\n", err)
+			os.Exit(1)
+		}
+
+		fmt.Println(string(marshalled))
+		return
 	}
 
 	// load configs
